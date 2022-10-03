@@ -1,0 +1,127 @@
+
+body{
+    font-family: 'Roboto Slab','serif';
+    margin: 0;
+    padding: 0;
+    /*text-align: center;*/
+    background-repeat:no-repeat;
+    background-size: 100% 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/caféteria.webp);
+}
+
+#titulo-area{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-pagina{
+    text-align: center;
+    max-width: 780px;
+    font-size: 36px;
+    color: white;
+    z-index: 10;
+}
+
+#posicion-imagenperfil{
+    width: 100%;
+    position: absolute;
+    top: 450px;
+    z-index: 10;
+}
+
+#image-perfil{
+    /*
+    position: fixed;
+    top: 450px;
+    */
+    width: 100px;
+    border-radius:50%;
+    z-index: 10;
+}
+
+#margen-perfil{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.estilo-perfil{
+    font-family: 'Source Sans Pro' , 'sans-serif';
+    font-size: 18px;
+    color:rgb(51,51,51);
+}
+
+#Texto-perfil{
+    font-weight: bold;
+}
+
+#ultima-actualizacion{
+    font-style: italic;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 10px;
+}
+
+#content-area{
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+.margen-bloque{
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.content-item{
+    width: 66.67%;
+}
+
+.titulo{
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+}
+
+.numero{
+    color: rgba(0,0,0,0.25);
+    margin-right: 40px;
+}
+
+.title-note{
+    margin-bottom: 20px;
+}
+
+.direccion{
+    color: #42b4d6;
+    text-decoration:none;
+}
+
+.direccion:hover{
+    text-decoration: underline;
+}
+
+.parrafos{
+    font-family: 'Source Sans Pro','sans-serif';
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    margin-bottom: 20px;
+}
+
+.recomendacion{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-image{
+    width: 100%;
+}
